@@ -1,0 +1,51 @@
+.card {
+    background-color: #ebf8ff; /* Light blue */
+    border: 1px solid #90cdf4; /* Blue border */
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .shoe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #bee3f8; /* Subtle border */
+  }
+  
+  .shoe-title {
+    font-size: 1.5rem;
+    color: #2b6cb0; /* Dark blue */
+    margin-bottom: 8px;
+  }
+  
+  .shoe-description {
+    color: #3182ce; /* Medium blue */
+    margin-bottom: 8px;
+  }
+  
+  .shoe-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c5282; /* Darker blue */
+    margin-bottom: 16px;
+  }
+  
+  .shoe-button {
+    background-color: #4299e1; /* Blue button */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shoe-button:hover {
+    background-color: #2b6cb0; /* Darker blue on hover */
+  }
+  
