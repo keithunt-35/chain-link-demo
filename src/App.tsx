@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import '@coinbase/onchainkit/styles.css'; 
 import   Header  from './components/header'
+import Shoe from './components/shoe';
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div>
-        <h1 style={{ color: 'blue', textAlign: 'center' }}> Testing OnChain Kit</h1>
+        <h1 style={{ color: 'blue', textAlign: 'center' }}> Shop</h1>
+        <Shoe />
       </div>
     </>
   )
